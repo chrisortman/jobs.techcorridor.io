@@ -2,7 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>jobs.techcorridor.io</title>
   <link href="http://jobs.techcorridor.io"/>
-  <updated>2017-02-14T01:53:37+00:00</updated>
+  <updated>2017-02-14T01:57:19+00:00</updated>
+  <entry>
+    <id>newbo_co_careers_software-development-instructor</id>
+    <title>Software Development Instructor at NewBoCo</title>
+    <link href="http://jobs.techcorridor.io/positions/newbo_co_careers_software-development-instructor.html"/>
+    <content type="html">See posting for details</content>
+    <updated>2017-02-14T01:56:08+00:00</updated>
+  </entry>
   <entry>
     <id>jobs-leepfrog_icims_com_jobs_1047_javascript-developer_job</id>
     <title>JavaScript Developer at Leepfrog Technologies</title>
