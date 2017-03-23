@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>TechCorridor.io Jobs, a job board for Iowa's Tech Corridor</title>
+
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-91743483-1', 'auto');
+  ga('send', 'pageview');
+</script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/bootstrap.js"></script>
+  </head>
+
+  <body class="new_position">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FIXME Add hamburger menu for mobile -->
+
+          <a class="navbar-brand" href="/">jobs.tech<span>corridor</span>.io</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="/positions/">All positions</a></li>
+            <li><a href="/new_position.html">Post a position</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2 id="post-a-position">Post a position</h2>
+
+<p>Thank you for your interest in posting a position on this site!  We have a growing technology community in Iowa's Technology Corridor and we'd love to help connect you.</p>
+
+<p>Please understand that this community job board is maintained entirely by volunteers.  We have a vested interest in seeing our tech community grow and thrive, but our time can be limited – though we'll do our best to review requests quickly.  (Want to lend a hand?  Get in touch in the <code>#admin</code> room on our Slack.)</p>
+
+<h3 id="rules">Rules</h3>
+
+<p>We are focused on Iowa's Technology Corridor.  Roughly speaking, this includes areas near I-380 in Iowa.  Remote jobs are welcomed, but only if the company involved <em>already has <strong>at least one</strong> employee in the area</em>.</p>
+
+<p>Generally speaking, the positions should be related to <strong>creating</strong> new technology.  For example, software developers, graphic designers, project managers, etc.</p>
+
+<h3 id="featured-jobs">Featured Jobs</h3>
+
+<p>If you are interested in featuring a job on the front page, please <a class="mailto" data-email="am9ic0B0ZWNoY29ycmlkb3IuaW8=">send us an email</a>.</p>
+
+<h3 id="posting">Posting</h3>
+
+<p>There are currently 2 ways to post a position.  (This job board is still a bit of an experiment for us.  We plan to make the process easier if there's sufficient interest.)</p>
+
+<h4 id="pull-request-free">Pull Request (Free)</h4>
+
+<p>This entire website is open source and pull requests to add positions are welcome!  If you have the skills to <a href="https://github.com/techcorridorio/jobs.techcorridor.io/new/master/source/positions?filename=my_position.html.md">make an acceptable pull request</a>, that's all that is necessary to get your position published.</p>
+
+<p>There is currently no database; the job posts are simply a set of Markdown files.  Your position should be stored in a new file in <code>source/positions/*.html.md</code>.  The filename should be unique.  One good option for choosing a filename is to base it on the URL of your job posting.  For example, <code>http://example.com/jobs/12345.html</code> would become <code>source/positions/example_com_jobs_12345.html.md</code>.</p>
+
+<p>The content of the file needs to begin with YAML frontmatter describing the position.  The rest of the file is either Markdown or HTML.  Please limit your HTML to simple formatting only, generally the same subset that Markdown allows.</p>
+
+<p>Here's an example:.</p>
+
+<pre><code>---
+position:
+  source_url: http://example.com/jobs/12345.html
+  type: Full Time
+  title: Software Developer
+  company: Example
+  company_url: http://www.example.com/
+  location: Iowa City, IA
+---
+
+The text of your job description goes here.  It can contain **Markdown** or &lt;b&gt;HTML&lt;/b&gt; markup.
+</code></pre>
+
+<h4 id="request-assistance">Request assistance</h4>
+
+<p>If you don't know what any of the above means, <a class="mailto" data-email="am9ic0B0ZWNoY29ycmlkb3IuaW8=">send us an email</a> asking for help making the above pull request.  Please include all relevant position details.</p>
+
+<script>
+  (function () {
+    var i, links, link, email;
+
+    links = document.getElementsByClassName('mailto');
+
+    for (i = 0; i < links.length; i++) {
+      link = links[i];
+      email = atob(link.getAttribute('data-email'));
+      link.setAttribute('href', 'mailto:' + email);
+    }
+  }());
+</script>
+
+
+
+      <footer>
+        <p>
+          <small>
+            &copy; 2016 - 2017 Contributors.
+            <a href="/positions.atom">Atom feed</a>.
+            (Want to help?  Check out <a href="https://github.com/techcorridorio/jobs.techcorridor.io">our repo on GitHub</a> and <a href="https://techcorridorio-slackin.herokuapp.com/">our Slack</a>.)
+          </small>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
