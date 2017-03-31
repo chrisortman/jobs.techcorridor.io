@@ -2,7 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>jobs.techcorridor.io</title>
   <link href="http://jobs.techcorridor.io"/>
-  <updated>2017-03-31T02:38:35+00:00</updated>
+  <updated>2017-03-31T02:50:40+00:00</updated>
+  <entry>
+    <id>doximity_theresumator_com_apply_jobs_details_EvQyEZMhv8</id>
+    <title>Sr. Data Scientist (Ads) at Doximity</title>
+    <link href="http://jobs.techcorridor.io/positions/doximity_theresumator_com_apply_jobs_details_EvQyEZMhv8.html"/>
+    <content type="html">See posting for details</content>
+    <updated>2017-03-31T02:48:32+00:00</updated>
+  </entry>
+  <entry>
+    <id>doximity_theresumator_com_apply_jobs_details_KWIvi4ecxJ</id>
+    <title>Technical Support Specialist at Doximity</title>
+    <link href="http://jobs.techcorridor.io/positions/doximity_theresumator_com_apply_jobs_details_KWIvi4ecxJ.html"/>
+    <content type="html">See posting for details</content>
+    <updated>2017-03-31T02:46:14+00:00</updated>
+  </entry>
+  <entry>
+    <id>doximity_theresumator_com_apply_jobs_details_nzHBIF</id>
+    <title>Android Software Engineer at Doximity</title>
+    <link href="http://jobs.techcorridor.io/positions/doximity_theresumator_com_apply_jobs_details_nzHBIF.html"/>
+    <content type="html">See posting for details</content>
+    <updated>2017-03-31T02:43:26+00:00</updated>
+  </entry>
   <entry>
     <id>doximity_theresumator_com_apply_jobs_details_I4u6BD</id>
     <title>Ruby on Rails Software Engineer at Doximity</title>
